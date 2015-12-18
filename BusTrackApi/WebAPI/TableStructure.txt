@@ -1,0 +1,118 @@
+tblBus
+------
+{
+    "_id" : ObjectId("567296943dd7166ea82b01f1"),
+    "BID" : 7,
+    "RegistrationNumber" : "AP06PG1234",
+    "Source" : {
+        "Latitude" : "17.405451",
+        "Longitude" : "78.589589",
+        "AreaName" : "UPPAL BUS DEPOT",
+        "Time" : "7:30"
+    },
+    "Destination" : {
+        "Latitude" : "17.451031",
+        "Longitude" : "78.371846",
+        "AreaName" : "Infocity",
+        "Time" : "9:00"
+    },
+    "Boardings" : [ 
+        {
+            "Latitude" : "17.401325",
+            "Longitude" : "78.560017",
+            "AreaName" : "UPPAL BUS STOP TOWAR",
+            "Time" : "7:45",
+            "Distance" : 1.96905403844432,
+            "IsSent" : "N"
+        }, 
+        {
+            "Latitude" : "17.419769",
+            "Longitude" : "78.540684",
+            "AreaName" : "HABSIGUDA SARATHI SC",
+            "Time" : "7:48",
+            "Distance" : 3.37017445391672,
+            "IsSent" : "N"
+        }, 
+        {
+            "Latitude" : "17.426207",
+            "Longitude" : "78.531423",
+            "AreaName" : "TARNAKA BUS STOP",
+            "Time" : "7:51",
+            "Distance" : 4.0911902677609,
+            "IsSent" : "N"
+        }, 
+        {
+            "Latitude" : "17.432910",
+            "Longitude" : "78.522350",
+            "AreaName" : "METTUGUDA PETROL BUN",
+            "Time" : "7:55",
+            "Distance" : 4.81830600282166,
+            "IsSent" : "N"
+        }, 
+        {
+            "Latitude" : "17.441154",
+            "Longitude" : "78.505500",
+            "AreaName" : "RAILNILAYAM SANGEET",
+            "Time" : "8:00",
+            "Distance" : 6.06329448357419,
+            "IsSent" : "N"
+        }, 
+        {
+            "Latitude" : "17.443412",
+            "Longitude" : "78.478977",
+            "AreaName" : "MAYFAIR TOWERS",
+            "Time" : "8:10",
+            "Distance" : 7.74383091086811,
+            "IsSent" : "N"
+        }, 
+        {
+            "Latitude" : "17.444543",
+            "Longitude" : "78.462720",
+            "AreaName" : "BEGUMPET PANTALOONS",
+            "Time" : "8:13",
+            "Distance" : 8.78274478402798,
+            "IsSent" : "N"
+        }, 
+        {
+            "Latitude" : "17.426809",
+            "Longitude" : "78.452761",
+            "AreaName" : "PUNJAGUTTA CENTRAL",
+            "Time" : "8:15",
+            "Distance" : 9.13404450837667,
+            "IsSent" : "N"
+        }, 
+        {
+            "Latitude" : "17.426775",
+            "Longitude" : "78.438862",
+            "AreaName" : "BANJARA HILLS -TV NI",
+            "Time" : "8:22",
+            "Distance" : 10.0384420531909,
+            "IsSent" : "N"
+        }
+    ]
+}
+
+
+tblMaster
+---------
+{
+    "_id" : ObjectId("567422b0839eee65b811054f"),
+    "BID" : 7,
+    "Location" : {
+        "Latitude" : 17.405228,
+        "Longitude" : 78.588874,
+        "AreaName" : "Uppal"
+    },
+    "Distance" : 0.04955938661103553,
+    "Status" : "Running",
+    "Time" : -1450451586701.714
+}
+
+tblUser
+-------
+
+{
+    "_id" : ObjectId("567285913dd7166ea82b01f0"),
+    "GID" : "MG99860",
+    "BID" : "7"
+}

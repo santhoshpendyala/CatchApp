@@ -15,9 +15,13 @@ namespace WebAPI.HelperClasses
 {
     public class DBInsert
     {
-        static string connectionstring = "mongodb://localhost:27017";
+        //static string connectionstring = "mongodb://localhost:27017";
+        //static MongoClient client = new MongoClient(connectionstring);
+        //public static IMongoDatabase db = client.GetDatabase("Track");
+
+        static string connectionstring = "mongodb://mahesh:abcd1234@ds058048.mongolab.com:58048/catchapp";
         static MongoClient client = new MongoClient(connectionstring);
-        public static IMongoDatabase db = client.GetDatabase("Track");
+        public static IMongoDatabase db = client.GetDatabase("catchapp");
 
         public static string NextLocation = string.Empty;
         public int NextLocationIndex = 0;

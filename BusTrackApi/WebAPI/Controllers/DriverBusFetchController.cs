@@ -17,11 +17,11 @@ namespace WebAPI.Controllers
 {
     public class DriverBusFetchController : ApiController
     {
-        static string connectionstring = "mongodb://localhost:27017";
-        //static string connectionstring = "mongodb://mahesh:abcd1234@ds058048.mongolab.com:58048/catchapp";
+        //static string connectionstring = "mongodb://localhost:27017";
+        static string connectionstring = "mongodb://mahesh:abcd1234@ds058048.mongolab.com:58048/catchapp";
         static MongoClient client = new MongoClient(connectionstring);
-        //public static IMongoDatabase db = client.GetDatabase("catchapp");
-        public static IMongoDatabase db = client.GetDatabase("Track");
+        public static IMongoDatabase db = client.GetDatabase("catchapp");
+        //public static IMongoDatabase db = client.GetDatabase("Track");
         DriverBusFetchModel busResult = new DriverBusFetchModel();
         public DriverBusFetchModel Get(int BID)
         {            
